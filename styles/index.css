@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#fixed-top
+{
+    width: 100%;
+    display: flex;
+    padding: 20px 60px;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#title
+{
+    text-transform: uppercase;
+}
+#title__btn
+{
+    position: absolute;
+    right: 60px;
+}
+#container
+{
+    padding-top: 80px;
+}
+form
+{
+    display: none;
+    transition: all 0.5s linear;
+}
